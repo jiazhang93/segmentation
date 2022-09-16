@@ -1,0 +1,17 @@
+evalutils==0.3.1
+tqdm
+dicom2nifti
+scikit-image>=0.14
+medpy
+scipy==1.6.3
+batchgenerators>=0.23
+numpy
+scikit-learn==0.24.2
+SimpleITK
+pandas
+requests
+nibabel 
+tifffile 
+matplotlib
+visdom
+connected-components-3d
