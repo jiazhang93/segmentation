@@ -5,4 +5,6 @@ The Joint 2D-3D segmentation algorithm is developed for the Automated Lesion Seg
 For more information, please see the preprint paper.
 
 # Weights access 
-Model weights can be downloaded from Baidu cloud storage https://pan.baidu.com/s/1rCW-t8g8x1RlijRmEXRFvA?pwd=u9fm pwd:u9fm 
+Model weights can be downloaded from dropbox https://www.dropbox.com/scl/fo/xgpflnxcwfysqv83ar844/h?dl=0&rlkey=w1raykqgsrwktbbhw5pjmlqfm
+or 
+Baidu cloud storage https://pan.baidu.com/s/1rCW-t8g8x1RlijRmEXRFvA?pwd=u9fm pwd:u9fm 
