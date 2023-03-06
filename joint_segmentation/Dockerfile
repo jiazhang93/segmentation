@@ -13,12 +13,12 @@ WORKDIR /opt/algorithm
 
 ENV PATH="/home/algorithm/.local/bin:${PATH}"
 
-# RUN python -m pip install --user -U pip
-RUN pip install -i https://nexus.united-imaging.com/pypi/simple --user -U pip
+
+RUN python -m pip install --user -U pip
 COPY --chown=algorithm:algorithm requirements.txt /opt/algorithm/
 
-RUN pip install -i https://nexus.united-imaging.com/pypi/simple --user torch torchvision --extra-index-url https://download.pytorch.org/whl/cu113
-RUN pip --default-timeout=1000 install -i https://nexus.united-imaging.com/pypi/simple --user -rrequirements.txt
+RUN python -m pip install --user torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+RUN python -m pip install --user -rrequirements.txt
 
 COPY --chown=algorithm:algorithm process.py /opt/algorithm/
 COPY --chown=algorithm:algorithm predict.py /opt/algorithm/
